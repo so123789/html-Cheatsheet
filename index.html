@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2b9ac51405.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,600&family=Roboto:ital,wght@0,300;1,700&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Cheatsheet</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-dark ">
+        <div class="container-fluid cnt">
+            <a class="navbar-brand navbar-brand-centered" href="#" style="color:white">
+                <i class="fa-brands fa-html5" style="color: #df2020;"></i>
+                HTML Cheatsheet
+            </a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div id="list-example" class="list-group bg-dark">
+            <a class="list-group-item list-group-item-action" href="#item-1">HTML Boilerplate</a>
+            <a class="list-group-item list-group-item-action" href="#item-2">HTML Heading tags</a>
+            <a class="list-group-item list-group-item-action" href="#item-3">HTML Paragraphs</a>
+            <a class="list-group-item list-group-item-action" href="#item-4">HTML Links</a>
+            <a class="list-group-item list-group-item-action" href="#item-5">HTML Images</a>
+            <a class="list-group-item list-group-item-action" href="#item-6">HTML Style Attribute</a>
+            <a class="list-group-item list-group-item-action" href="#item-7">HTML Bold Tag</a>
+            <a class="list-group-item list-group-item-action" href="#item-8">HTML Short Quotations</a>
+            <a class="list-group-item list-group-item-action" href="#item-9">HTML Comments</a>
+            <a class="list-group-item list-group-item-action" href="#item-10">HTML Table</a>
+            <a class="list-group-item list-group-item-action" href="#item-11">HTML Unordered List</a>
+            <a class="list-group-item list-group-item-action" href="#item-12">HTML Ordered List</a> 
+            <a class="list-group-item list-group-item-action" href="#item-13">HTML Block-level Elements</a>
+            <a class="list-group-item list-group-item-action" href="#item-14">HTML Inline Elements</a>
+            <a class="list-group-item list-group-item-action" href="#item-15">HTML Class Attribute</a>
+            <a class="list-group-item list-group-item-action" href="#item-16">HTML Class Attribute</a>
+        
+           
+        </div>
+        <ol>
+            <li><h5 id="item-1"><b>HTML Boilerplate:</b></h5> This is the basic html boilerplate code
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li>
+            <li><h5 id="item-2"><b>Heading Tag:</b></h5> h1 to h6 heading tags
+                <pre class="language-js"><code>&lt;h1&gt h1 heading &lt;/h1&gt  </code></pre>
+                <pre class="language-js"><code>&lt;h2&gt h2 heading &lt;/h2&gt  </code></pre>
+                <pre class="language-js"><code>&lt;h3&gt h3 heading &lt;/h3&gt  </code></pre>
+                <pre class="language-js"><code>&lt;h4&gt h4 heading &lt;/h4&gt  </code></pre>
+                <pre class="language-js"><code>&lt;h5&gt h5 heading &lt;/h5&gt  </code></pre>
+                <pre class="language-js"><code>&lt;h6&gt h6 heading &lt;/h6&gt  </code></pre>
+            </li>
+            <li><h5 id="item-3"><b>HTML Paragraphs:</b></h5> 
+            <ul style="list-style-type:square">
+                <li>Paragraph is defined by the &lt;p6&gt.</li>
+            </ul>
+                <pre class="language-js"><code>&lt;p&gt This is paragraph &lt;/p&gt </code></pre>
+            </li>
+            <li><h5 id="item-4"><b>HTML Links:</b></h5>
+                <ul style="list-style-type:square">
+                    <li>The <code>&lt;a&gt</code> tag defines a hyperlink, which is used to link from one page to another.</li>
+                    <li>The <code>href</code> attribute specifies the URL of the page. </li>
+                </ul>
+                <p> </p>
+                <p></p>
+                <pre class="language-js"><code>&lt;a href="https://www.google.com"&gt Click to open Google &lt;/a&gt  </code></pre>
+            </li>
+            <li><h5 id="item-5"><b>HTML Images:</b></h5> 
+                <ul style="list-style-type:square">
+                    <li>The <code>&lt;img&gt</code> tag is used to embed an image in an HTML page.</li>
+                    <li>The <code>src</code> attribute specifies the path to the image to be displayed.</li>
+                    <li>HTML Image tag do not have omission tag.</li>
+                </ul>
+                <pre class="language-js"><code>&lt;img src="image.jpeg"&gt </code></pre>
+            </li>
+            <li><h5 id="item-6"><b> HTML Style Attribute:</b></h5> 
+            <ul style="list-style-type:square">
+                <li>The style attribute specifies an inline style for an element.</li>
+                <li>The style attribute will override any style set globally.</li>
+                <li>&lt;HTML tagname style="property:value"&gt</li>
+            </ul>
+                <pre class="language-js">
+
+<code>&lt;h1 style="color:blue;"&gt h1 tag font color changes &lt;/h1&gt</code></pre>
+               
+            </li>
+            <li><h5 id="item-7"><b>HTML Bold Tag:</b></h5>
+            <ul style="list-style-type:square"> 
+                <li>This tag is used to bold the text.</li> 
+            </ul>
+              
+                <pre class="language-js"><code>&lt;b&gt The text is bold. &lt;/b&gt </code></pre>
+            </li>
+            <li><h5 id="item-8"><b>HTML Short Quotations:</b></h5> 
+                <ul style="list-style-type:square"> 
+                    <li>It inserts the quotation marks around the text.</li>
+                </ul>
+
+                <pre class="language-js"><code>&lt;q&gt HTML5 tutorials &lt;/q&gt </code></pre>
+            </li>
+            <li><h5 id="item-9"><b>HTML Comments:</b></h5> 
+                <ul style="list-style-type:square"> 
+                    <li>Comments helps to document HTML source code.</li>
+                    <li>It is not displayed in the browser.</li>
+                </ul>
+             
+                <pre class="language-js"><code>&lt;!-- Comments goes here --&gt </code></pre>
+            </li>
+            <li><h5 id="item-10"><b>HTML Table:</b></h5> 
+                <ul  style="list-style-type:square">
+                    <li>A table in HTML consists of table cells inside rows and columns.</li>
+                    <li>Table row is defined by  &lt;tr&gt &lt;/th&gt</li>
+                    <li>&lt;td&gt and  &lt;/td&gt are the content of the table cell.</li>
+                </ul>
+                <pre class="language-js"><code>
+    &lt;table&gt
+    &lt;tr&gt
+      &lt;th&gtCompany&lt;/th&gt
+      &lt;th&gtContact&lt;/th&gt
+      &lt;th&gtCountry&lt;/th&gt
+    &lt;/tr&gt
+    &lt;tr&gt
+      &lt;td&gtAlfreds Futterkiste&lt;/td&gt
+      &lt;td&gtMaria Anders&lt;/td&gt
+      &lt;td&gtGermany&lt;/td&gt
+    &lt;/tr&gt
+    &lt;tr&gt
+      &lt;td&gtCentro comercial Moctezuma&lt;/td&gt
+      &lt;td&gtFrancisco Chang&lt;/td&gt
+      &lt;td&gtMexico&lt;/td&gt
+    &lt;/tr&gt
+  &lt;/table&gt </code></pre>
+            </li>
+            <li><h5 id="item-11"><b>HTML Unordered List:</b> </h5>
+                <ul style="list-style-type:square">
+                <li>An unordered list is defined by &lt;ul&gt tag.</li>
+                <li>Each list item starts with the  &lt;li&gt  tag.</li>
+                <li>The list items will be marked with bullets (small black circles) by default</li>
+                </ul>
+                <pre class="language-js"><code>
+&lt;ul&gt
+    &lt;li&gt Mango  &lt;/li&gt
+    &lt;li&gt Grapes  &lt;/li&gt
+    &lt;li&gt Apple   &lt;/li&gt
+&lt;/ul&gt
+                     </code></pre>
+            </li>
+            <li><h5 id="item-12"><b>HTML Ordered List:</b></h5>
+                <ul style="list-style-type:square">
+                <li>An ordered list is defined by  &lt;/ol&gt tag.</li>
+                <li>Each list item starts with the  &lt;/li&gt tag.</li>
+                <li>The list items will be marked with numbers by default.</li>
+                </ul>
+                <pre class="language-js"><code>
+&lt;ol&gt
+    &lt;li&gt Mango  &lt;/li&gt
+    &lt;li&gt Grapes  &lt;/li&gt
+    &lt;li&gt Apple   &lt;/li&gt
+&lt;/ol&gt
+                </code></pre>
+            </li>
+            <li><h5 id="item-13"><b>HTML Block-level Elements:</b></h5>
+                <ul style="list-style-type:square">
+                    <li>A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.</li>
+                    <li>Some of the block level elements are:</li>
+                </ul>
+                <pre class="language-js"><code>
+&lt;address&gt &lt;article&gt &lt;aside&gt &lt;blockquote&gt &lt;canvas&gt
+&lt;dd&gt &lt;div&gt &lt;dl&gt &lt;dt&gt &lt;fieldset&gt
+&lt;figcaption&gt &lt;figure&gt &lt;footer&gt &lt;form&gt &lt;h1&gt
+&lt;h6&gt &lt;header&gt &lt;hr&gt &lt;li&gt &lt;main&gt
+&lt;nav&gt &lt;noscript&gt &lt;ol&gt &lt;p&gt &lt;pre&gt
+&lt;section&gt &lt;table&gt &lt;tfoot&gt &lt;ul&gt &lt;video&gt                   
+                </code></pre>
+            </li>
+            <li><h5 id="item-14"><b>HTML Inline Elements:</b></h5>
+                <ul style="list-style-type:square">
+                    <li>An inline element does not start on a new line.</li>
+                    <li>An inline element only takes up as much width as necessary.</li>
+                </ul>
+                <pre class="language-js"><code>
+&lt;a&gt &lt;abbr&gt &lt;acronym&gt &lt;b&gt &lt;bdo&gt &lt;big&gt
+&lt;br&gt &lt;button&gt &lt;cite&gt &lt;code&gt &lt;dfn&gt &lt;em&gt
+&lt;i&gt &lt;img&gt &lt;input&gt &lt;kbd&gt &lt;label&gt &lt;map&gt
+&lt;object&gt &lt;output&gt &lt;q&gt &lt;samp&gt &lt;script&gt &lt;select&gt
+&lt;small&gt &lt;span&gt &lt;strong&gt &lt;sub&gt &lt;sup&gt &lt;textarea&gt
+&lt;time&gt &lt;tt&gt &lt;var&gt                   
+                </code></pre>
+            </li>
+            <li><h5 id="item-15"><b>HTML class attribute:</b></h5>
+                <ul style="list-style-type:square">
+                    <li>The HTML class attribute is used to specify a class for an HTML element.</li>
+                    <li>The class is specified in Internal or External CSS using "<b>.</b>"</li>
+                    <li>Multiple HTML elements can share the same class.</li>
+                    <li>The class attribute is often used to point to a class name in a style sheet.</li>
+                    <li>It can also be used by a JavaScript to access and manipulate elements with the specific class name.</li>
+                </ul>
+                <pre class="language-js"><code>
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;style&gt;
+.fruit{
+    background-color: rgb(237, 152, 41);
+}
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="fruit"&gt;
+        &lt;h2&gt;Fruits&lt;/h2&gt;
+        &lt;p&gt;Mango is considered the king of fruits.&lt;/p&gt;
+    &lt;/div&gt; 
+&lt;/body&gt;
+&lt;/html&gt; 
+</code></pre>
+<li><h5 id="item-16"><b>HTML Id attribute:</b></h5> 
+    <ul style="list-style-type:square"> 
+        <li>The id attribute is used to specify a unique id for an HTML element.</li>
+        <li>The id is specified in Internal or External CSS using "<b>#</b>".</li>
+        <li>The value of the id attribute must be unique within the HTML document.</li>
+        <li>The id attribute is used by CSS and JavaScript to style/select a specific element.</li>
+        <li>The id attribute is also used to create HTML bookmarks.</li>
+    </ul>
+ 
+    <pre class="language-js"><code>
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;style&gt;
+#fruit{
+     background-color: rgb(237, 152, 41);
+}
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div&gt;
+        &lt;h2 id="fruit"&gt;Fruits&lt;/h2&gt;
+                &lt;p&gt;Mango is considered the king of fruits.&lt;/p&gt;
+        &lt;/div&gt; 
+&lt;/body&gt;
+&lt;/html&gt;
+         </code></pre>
+
+    </div>
+</body>
+
+</html>
